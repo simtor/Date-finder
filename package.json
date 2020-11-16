@@ -1,0 +1,20 @@
+{
+  "name": "date-finder",
+  "version": "1.0.0",
+  "description": "Program that allows user input and outputs the weekday thta is was",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simtor/Date-finder-.git"
+  },
+  "author": "Simone Ram",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simtor/Date-finder-/issues"
+  },
+  "homepage": "https://github.com/simtor/Date-finder-#readme"
+}
