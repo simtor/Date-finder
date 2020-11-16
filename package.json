@@ -4,7 +4,7 @@
   "description": "Program that allows user input and outputs the weekday thta is was",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
