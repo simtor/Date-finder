@@ -5,9 +5,10 @@ const rl = readline.createInterface({
 });
 
 
-rl.question("Input song: ", dateHandeler)
-function dateHandeler(selectedSong){
-    if(selectedSong==='Q'){
+rl.question("Please input the date: ", dateHandeler)
+function dateHandeler(dateInput){
+    console.log(dateInput);
+    if(dateInput==='Q'||'q'){
         rl.close()
     }
 }
