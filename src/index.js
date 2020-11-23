@@ -12,10 +12,10 @@ console.log("Please input your date MM/DD/YYYY");
 rl.question("Please input the date: ", dateHandeler)
 function dateHandeler(dateInput){
     console.log(dateInput);
-    const day1 = new Date (dateInput);
-    const day2 = day1.getDay();
+    const dateholder = new Date (dateInput);
+    const weekdaySelector = dateholder.getDay();
     // console.log(day2);
-    console.log("It was a ",weekdays[day2]);
+    console.log("It was a ",weekdays[weekdaySelector]);
     if(dateInput==='Q'||'q'){
         rl.close()
     }
